@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --green:hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Off-Black);
+}
+.my-card{
+    background-color: var(--Dark-Grey);
+    padding: 30px;
+    border-radius: 10px;
+}
+.title{
+    color: white;
+}
+.title h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+.title span{
+    color: rgb(215, 215, 215);
+}
+.title p{
+    color: var(--green);
+    font-size: 14px;
+    font-weight: 700;
+}
+.head img{
+    width: 100px;
+    border-radius: 50%;
+    margin-inline: auto;
+    display: block;
+}
+.social-links ul li{
+    background-color: var(--Grey);
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all .5s ease;
+}
+.social-links ul li:hover{
+    background-color: var(--green);
+    color: var(--Dark-Grey);
+}
